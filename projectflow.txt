@@ -27,8 +27,8 @@ Expermients with DVC:
 -------------------------------------------------------------------------------
 
 params.yaml setup:
-1> import yaml
-2> add func:
+1> import yaml # in the all files where param.yaml file has parameters for.
+2> add func in data_ingestion.py:
 def load_params(params_path: str) -> dict:
     """Load parameters from a YAML file."""
     try:
