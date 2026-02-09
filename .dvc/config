@@ -1,0 +1,4 @@
+[core]
+    remote = dvcmlops
+['remote "dvcmlops"']
+    url = s3://bucket-30jan2026
